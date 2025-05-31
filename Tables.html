@@ -1,84 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tables In HTML</title>
-    <link rel="stylesheet" href="/assets/css/table.css">
-</head>
-<body>
+    <link rel="stylesheet" href="/assets/css/table.css" />
+  </head>
+  <body>
     <!--Sample Table-->
-    <h1> Tables In HTML </h1>
+    <h1>Tables In HTML</h1>
     <table>
-        <!--Add a caption to our table-->
-        <caption>Contact Information</caption>
+      <!--Add a caption to our table-->
+      <caption>
+        Contact Information
+      </caption>
+      <!--thead to group our th header-->
+      <thead>
         <tr>
-            <th>Name</th>
-            <th>Email</th>
-            <th>Phone Number</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Phone Number</th>
+        </tr>
+      </thead>
+      <!--tbody to group our tr body elements-->
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Phone Number</th>
         </tr>
         <tr>
-            <td>John</td>
-            <td>John@email.com</td>
-            <td>+1 38573895</td>
+          <td>John</td>
+          <td>John@email.com</td>
+          <td>+1 38573895</td>
         </tr>
         <tr>
-            <td>Sarah</td>
-            <td>Sarah@email.com</td>
-            <td>+1 23435746</td>
+          <td>Sarah</td>
+          <td>Sarah@email.com</td>
+          <td>+1 23435746</td>
         </tr>
         <tr>
-            <td>Peter</td>
-            <td>Peter@email.com</td>
-            <td>+1 56567443</td>
+          <td>Peter</td>
+          <td>Peter@email.com</td>
+          <td>+1 56567443</td>
         </tr>
+      </tbody>
+      <!--tfoot to group our tr footer elements-->
+      <tfoot>
         <!--colspan-->
         <tr>
-            <td colspan="2">Total</td>
-            <td>3</td>
+          <td colspan="2">Total</td>
+          <td>3</td>
         </tr>
+      </tfoot>
     </table>
-    <br>
+    <br />
     <!--rowspan-->
     <table>
-        <tr>
-            <!--Set a smaller width for column row-->
-            <th style="width: 20%;">Row</th>
-            <th>Name</th>
-            <th>Price</th>
-        </tr>
-        <tr>
-            <td rowspan="2">1</td>
-            <td rowspan="2">Laptop</td>
-            <td>100</td>
-        </tr>
-        <tr>
-            <td>356</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>TV</td>
-            <td>400</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>Radio</td>
-            <td>300</td>
-        </tr>
+      <tr>
+        <!--Set a smaller width for column row-->
+        <th style="width: 20%">Row</th>
+        <th>Name</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <td rowspan="2">1</td>
+        <td rowspan="2">Laptop</td>
+        <td>100</td>
+      </tr>
+      <tr>
+        <td>356</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>TV</td>
+        <td>400</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Radio</td>
+        <td>300</td>
+      </tr>
     </table>
-    <br>
-    <!--Another type of table-->
+    <br />
+    <!--Another type of table format-->
     <table>
-        <tr>
-            <th>Name</th>
-            <td>John</td>
-            <td>Sarah</td>
-        </tr>
-        <tr>
-            <th>Points</th>
-            <td>14</td>
-            <td>40</td>
-        </tr>
+      <tr>
+        <th>Name</th>
+        <td>John</td>
+        <td>Sarah</td>
+      </tr>
+      <tr>
+        <th>Points</th>
+        <td>14</td>
+        <td>40</td>
+      </tr>
     </table>
-</body>
+  </body>
 </html>
