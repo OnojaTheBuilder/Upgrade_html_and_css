@@ -1,7 +1,33 @@
+table {
+    width: 100%;
+}
 table, th, td {
     border: .0625rem solid #000;
     border-collapse: collapse;
 }
 th, td {
     padding: .3125rem;
+    text-align: center;
+}
+
+//Zebra styling//
+
+/* tr:nth-child(even)
+{
+    background-color: #f2f2f2;
+}
+tr:nth-child(odd)
+{
+    background-color: #f2f2f2;
+} */
+
+td:nth-child(even), 
+th:nth-child(even)
+{
+    background-color: #323232;
+}
+td:nth-child(odd),
+th:nth-child(even)
+{
+    background-color:rgb(255, 203, 203);
 }
