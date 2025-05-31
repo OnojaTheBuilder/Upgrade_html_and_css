@@ -1,0 +1,19 @@
+div {
+    width: 18.75rem;
+    height: 18.75rem;
+    margin-bottom: .625rem;
+}
+
+#linear1 {
+    background-image: linear-gradient(red, green);
+}
+#linear2 {
+    background-image: linear-gradient(red, green, yellow);
+}
+#linear3 {
+    background-image: linear-gradient(30deg,  red, green, yellow);
+}
+#linear4 {
+    background-image: linear-gradient(to bottom left,  red, green, yellow);
+}
+
