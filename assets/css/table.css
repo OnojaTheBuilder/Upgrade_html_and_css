@@ -1,0 +1,7 @@
+table, th, td {
+    border: .0625rem solid #000;
+    border-collapse: collapse;
+}
+th, td {
+    padding: .3125rem;
+}
