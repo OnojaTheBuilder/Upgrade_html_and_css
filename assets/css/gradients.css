@@ -3,7 +3,7 @@ div {
     height: 18.75rem;
     margin-bottom: .625rem;
 }
-
+/*Linear Gradients*/
 #linear1 {
     background-image: linear-gradient(red, green);
 }
@@ -15,5 +15,52 @@ div {
 }
 #linear4 {
     background-image: linear-gradient(to bottom left,  red, green, yellow);
+}
+
+/*Radial Gradients*/
+#radial1 {
+    background-image: radial-gradient(yellow, blue);
+}
+
+#radial2 {
+    background-image: radial-gradient(yellow, blue, purple);
+}
+/*Radial Gradients with different width and height gives us ellipse radial gradient*/
+/*Radial Gradients same width and height gives us square radial gradient*/
+#radial3 {
+    width: 31.25rem;
+    background-image: radial-gradient(yellow, blue, purple);
+}
+
+/*Radial Gradients with different width and height gives us ellipse radial gradient but can be set to 
+circle with the circle property inside the radial-gradient parenthesis()*/
+#radial4 {
+    width:25rem;
+    background-image: radial-gradient( circle, yellow, blue, purple)
+}
+
+/*Conic Gradients*/
+
+#conic1 {
+    background-image: conic-gradient(blue, red);
+}
+#conic2 {
+    background-image: conic-gradient(blue, red, yellow);
+}
+
+/*Conic Gradients with degree for each color*/
+#conic3 {
+    background-image: conic-gradient(blue 45deg, red 122deg, yellow 180deg);
+}
+
+/*Conic Gradients for pie chart*/
+
+#conic4 {
+    border-radius: 50%;
+     background-image: conic-gradient(blue 0deg, blue 45deg,  red 45deg, red 90deg, yellow 90deg, yellow 135deg );
+}
+
+#conic5 {
+    background-image: conic-gradient(from 90deg, blue 45deg, red 122deg, yellow 180deg);
 }
 
