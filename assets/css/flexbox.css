@@ -1,0 +1,19 @@
+.flex {
+    display: flex;
+    background-color: bisque;
+    /* make it wrap around */
+    /*flex-wrap: wrap;*/
+    /* set direction */
+    /*flex-direction: column;*/
+    /*set direction and wrap element together with flex-flow */
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.flex > div {
+    width: 9.375rem;
+    margin: .3125rem;
+    text-align: center;
+    background-color: burlywood;
+    padding: .3125rem;
+}
