@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 100%;
+    padding: .625rem;
+    margin: 0 auto;
+    border: .125rem solid red;
+    position: relative;
+}
+
+nav {
+    width: 12.5rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: .125rem solid blue;
+}
+section, header{
+    margin-left: 12.5rem;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    border: .125rem solid yellow;
+}
+
+
+.float-container {
+    content: "";
+  display: table;
+  clear: both;
+  width:31.25rem;
+  height: 31.25rem;
+}
+img {
+    width: 18.75rem;
+   
+    float: right;
+    top:0;
+}
